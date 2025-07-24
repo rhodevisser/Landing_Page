@@ -4,3 +4,89 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+button, .item_7 {
+   background-color: #3882f6; ; 
+}
+
+header, footer, .box_1 {
+    background-color: #1f2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-around
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav ul{
+    display: flex;
+    gap: 10px;;
+    
+}
+.nav ul li {
+    list-style: none;
+
+}
+
+.nav ul li a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.box_1 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.box_1 h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.box_1 .item_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box_2 .item_3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.box_3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.box_3 h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.box_3 .item_6 {
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+.box_4 .item_7 {
+    display: flex;
+}
