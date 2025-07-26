@@ -139,11 +139,22 @@ header {
     margin: 10px;
 }
 
+/*box_3 css*/
+
 .box_3 {
-    display: flex;
-    flex-direction: column;
     background-color: #e5e7eb;
+    display: flex;
     justify-content: center;
+
+    
+}
+
+.box_3 .quote_name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+    max-width: 900px;
 }
 
 .box_3 h2 {
@@ -151,6 +162,7 @@ header {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+    max-width: 900px;
 }
 
 .box_3 .item_6 {
