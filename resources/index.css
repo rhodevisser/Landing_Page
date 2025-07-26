@@ -10,8 +10,10 @@ button {
     cursor: pointer;
 }
 
+main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 button, .item_7 {
