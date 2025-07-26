@@ -1,6 +1,15 @@
 body {
     font-family: "roboto", sans-serif;
     margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
     display: flex;
     flex-direction: column;
 }
