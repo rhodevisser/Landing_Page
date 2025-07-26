@@ -170,6 +170,28 @@ header {
     margin-right: 10%;
 }
 
+/*box_4 CSS*/
+
+.box_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .box_4 .item_7 {
     display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 1000px;
+    padding: 20px;
+    margin: 70px;
+    color: #f9faf8;
+}
+
+.box_4 .item_7 button {
+    color:#f9faf8;
+    border: oldlace solid 2px;
+    border-radius: 5px;
+    align-self: center;
+}
+
 }
