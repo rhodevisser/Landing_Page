@@ -56,6 +56,7 @@ header {
     text-decoration: none;
 }
 
+/*box_1 CSS*/
 .box_1 {
     display: flex;
     justify-content: center;
@@ -73,6 +74,7 @@ header {
     flex-direction: column;
 }
 
+/*box_2 CSS*/
 .box_2 {
     display: flex;
     flex-direction: column;
