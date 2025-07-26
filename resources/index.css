@@ -194,4 +194,9 @@ header {
     align-self: center;
 }
 
+/*footer CSS*/
+footer {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 18px;
 }
