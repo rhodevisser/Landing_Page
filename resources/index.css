@@ -62,18 +62,42 @@ header {
 .box_1 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 50px 150px
+    
+}
+
+.box_1 .item_1, 
+.box_1 .item_2 {
     flex: 1;
+    text-align: left;
 }
 
 .box_1 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin: 0;
+}
+
+.box_1 p {
+    margin: 10px;
+    color: #f9faf8;
 }
 
 .box_1 .item_1 {
     display: flex;
     flex-direction: column;
+}
+
+.box_1 .item_2 {
+    background-color: grey;
+    height: 200px;
+}
+
+.box_1 button {
+    align-self: flex-start;
 }
 
 /*box_2 CSS*/
